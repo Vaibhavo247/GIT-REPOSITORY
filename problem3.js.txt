@@ -1,0 +1,13 @@
+/* The area of an equilateral triangle is ¼(√3a2) where "**a**" represents a side of the
+
+triangle. You are provided with the side "**a**". Find the area of the equilateral triangle.
+
+**Input Description:** ꢀ
+
+The side of an equilateral triangle is provided as the input.*/
+
+let side = 20;
+
+   area = Math.sqrt(3)/4*side*side;
+
+   console.log(area.toFixed(2));

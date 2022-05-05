@@ -1,0 +1,9 @@
+/* **PROBLEM 2**
+
+You are given with a number "N", find its cube.
+*/
+
+let n= prompt('enter the number'), cube;
+cube= n*n*n;
+console.log("cube of "+n+" is :" + cube);
+

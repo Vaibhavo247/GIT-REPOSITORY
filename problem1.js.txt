@@ -1,0 +1,12 @@
+/***PROBLEM 1**
+
+You are provided with a number, "**N**". Find its factorial.*/
+
+ let n,fact=1;
+let number=6;
+for(i=1;i<=number;i++)
+  {
+    fact=fact*i;
+  }
+  console.log("Factorial of "+number+" is: "+fact);
+

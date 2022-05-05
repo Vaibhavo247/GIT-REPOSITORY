@@ -1,0 +1,7 @@
+let txt="vaibhav"
+let length=txt.length;
+console.log(length);
+if(length==0)
+{
+  console.log("number is zero");
+}

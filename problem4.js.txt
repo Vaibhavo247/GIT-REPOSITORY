@@ -1,0 +1,37 @@
+/*let month;
+ month=prompt('enter number of month');
+if(month==1||month==3||month==5||month==7||month==8||month==12)
+{
+  console.log('number of days in month are 31')
+}
+
+elseif(month==2)&&(year%400==0||(year%4==0&& year%100!=0))
+{
+  console.log('error')
+}
+elseif(month==2)
+{
+  console.log('number of days in month are 28');
+}
+    else{
+      console.log("number of days in month are 30");
+    }
+*/
+let month,year=2020;
+month=prompt('enetr the number of month');
+      
+    if(month==1||month==3||month==5||month==7||month==8||month==10||month==12)
+    {  
+        console.log("Number of days in month are 31");  
+    }  
+    else if((((year % 4 ==0) && (year % 100 !=0)) || (year % 400==0))){  
+        console.log("Error");  
+    }  
+    else if(month==2){  
+        console.log("Number of days in moth are 28");  
+    }  
+    
+    else{  
+        console.log("Number of days in moth are 30");  
+    }  
+ 
